@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+            android:id="@+id/bttfilterapp"
+            android:text="Filter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    <Button
+            android:id="@+id/bttsystemconfig"
+            android:text="System Config"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    <EditText
+        android:id="@+id/urlText"
+        android:layout_marginTop="60dp"
+         android:layout_width="match_parent"
+         android:layout_height="50dp"/>
+
+    <Button
+            android:id="@+id/bttUrlConfig"
+            android:text="Url Config"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+</LinearLayout>
