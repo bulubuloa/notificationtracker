@@ -4,6 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+        <EditText
+android:id="@+id/edtPackage"
+android:hint="package..."
+            android:layout_alignRight="@+id/bttAdd"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"/>
+    <Button
+            android:layout_alignParentRight="true"
+android:id="@+id/bttAdd"
+android:text="Add"
+           android:layout_width="90dp"
+           android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
